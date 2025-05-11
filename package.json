@@ -1,17 +1,26 @@
 {
-  "name": "graphvisualisation",
-  "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "module",
-  "main": "graph_pipeline.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@cosmograph/cosmograph": "^1.4.2",
-    "graphml-js": "^0.4.0"
-  },
-  "devDependencies": {}
+	"name": "graphvisualisation",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"main": "graph_pipeline.js",
+	"scripts": {
+		"build": "webpack --config webpack.config.js",
+		"dev": "webpack --watch --config webpack.config.js",
+		"serve": "node server.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@cosmograph/cosmograph": "^1.4.2",
+		"graphml-js": "^0.4.0",
+		"typescript": "^5.8.3"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.27.1",
+		"@babel/preset-env": "^7.27.2",
+		"babel-loader": "^10.0.0",
+		"webpack": "^5.99.8",
+		"webpack-cli": "^6.0.1"
+	}
 }
