@@ -4,21 +4,14 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
-        
             "type": "node",
-            "runtimeExecutable": "C:/Program Files/nodejs/node.exe",
-            "runtimeArgs": 
-            [
-                "--inspect-brk"
-            ],
             "request": "launch",
-            "name": "Launch My Node Code",
+            "name": "Server",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/graph_pipeline.js"
+            "program": "${workspaceFolder}/server.js"
         }
     ]
 }
