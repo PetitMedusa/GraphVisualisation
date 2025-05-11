@@ -1,0 +1,17 @@
+{
+  "name": "graphvisualisation",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "graph_pipeline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@cosmograph/cosmograph": "^1.4.2",
+    "graphml-js": "^0.4.0"
+  },
+  "devDependencies": {}
+}
